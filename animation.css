@@ -1,0 +1,41 @@
+div{
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    background-color: black;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    animation-direction:alternate-reverse;
+}
+@keyframes box {
+    /* from {background-color: red;}
+    to {background-color: blue;} */
+    0%{
+       left: 0px;
+        top: 0px;
+background-color: cornflowerblue;
+    }
+    25%{
+        
+        left: 300px;
+        top: 0px;
+        background-color: chartreuse;
+    }
+    50%{
+        left: 300px;
+        top: 300px;
+        background-color: crimson;
+    }
+    75%
+    {
+        left: 0px;
+        top:300px;
+        background-color: darkcyan;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color:lime;
+    }
+}
